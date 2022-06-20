@@ -36,7 +36,7 @@ export default {
     <tbody>
       <tr v-for="materia in materias" :key="materia.nome"></tr>
       <td>{{ materia.nome }}</td>
-      <td></td>
+      <td>{{ materia.id }}</td>
       <td></td>
     </tbody>
   </table>
